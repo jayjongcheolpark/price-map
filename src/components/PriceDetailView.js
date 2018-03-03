@@ -29,6 +29,7 @@ const styles = {
     right: '12px',
     backgroundColor: '#4d55b2',
     border: 'none',
+    outline: 'none',
     color: 'white',
   },
 }
