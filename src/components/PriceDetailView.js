@@ -27,6 +27,9 @@ const styles = {
   closeStyle: {
     position: 'absolute',
     right: '12px',
+    backgroundColor: '#4d55b2',
+    border: 'none',
+    color: 'white',
   },
 }
 
@@ -34,9 +37,11 @@ const PriceDetailView = ({ data, closePriceDetail }) => {
   const addr = data[0].address1.split(',')
   return (
     <div style={styles.layoutStyle}>
-      <div onClick={closePriceDetail} style={styles.headerStyle}>
+      <div style={styles.headerStyle}>
         {addr[0]}
-        <i style={styles.closeStyle} className="fas fa-times" />
+        <button onClick={closePriceDetail} style={styles.closeStyle}>
+          <i className="fas fa-times" />
+        </button>
       </div>
       <div style={styles.contentStyle}>{data.map(el => <div>{el.price}</div>)}</div>
     </div>
@@ -45,6 +50,7 @@ const PriceDetailView = ({ data, closePriceDetail }) => {
 
 PriceDetailView.propTypes = {
   data: PropTypes.array.isRequired,
+  closePriceDetail: PropTypes.func.isRequired,
 }
 
 export default connect(null, { closePriceDetail })(PriceDetailView)
