@@ -1,0 +1,12 @@
+{
+  "Delsuite": {
+    "location": {
+      "address": "168 Simcoe St, Toronto, Ontario",
+      "zipCode": "M5H 4C9"
+    },
+    "type": "apartment",
+    "floor": 7,
+    "price": 1000000,
+    ""
+  }
+}
