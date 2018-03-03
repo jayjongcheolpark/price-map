@@ -33,13 +33,13 @@ const styles = {
   },
 }
 
-const PriceDetailView = ({ data, closePriceDetail }) => {
+const PriceDetailView = ({ data, closePriceDetailConnect }) => {
   const addr = data[0].address1.split(',')
   return (
     <div style={styles.layoutStyle}>
       <div style={styles.headerStyle}>
         {addr[0]}
-        <button onClick={closePriceDetail} style={styles.closeStyle}>
+        <button onClick={closePriceDetailConnect} style={styles.closeStyle}>
           <i className="fas fa-times" />
         </button>
       </div>
@@ -50,7 +50,7 @@ const PriceDetailView = ({ data, closePriceDetail }) => {
 
 PriceDetailView.propTypes = {
   data: PropTypes.array.isRequired,
-  closePriceDetail: PropTypes.func.isRequired,
+  closePriceDetailConnect: PropTypes.func.isRequired,
 }
 
-export default connect(null, { closePriceDetail })(PriceDetailView)
+export default connect(null, { closePriceDetailConnect: closePriceDetail })(PriceDetailView)

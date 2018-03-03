@@ -6,10 +6,10 @@ import { data } from './data'
 import PriceDetailView from './PriceDetailView'
 import { getPriceDetail } from '../redux/actions'
 
-const MapView = ({ priceDetail, getPriceDetail }) => (
+const MapView = ({ priceDetail, getPriceDetailConnect }) => (
   <div>
     {priceDetail.isOpen && <PriceDetailView data={priceDetail.data} />}
-    <GMap data={data} getPriceDetail={getPriceDetail} />
+    <GMap data={data} getPriceDetail={getPriceDetailConnect} />
   </div>
 )
 
@@ -20,7 +20,7 @@ MapView.propTypes = {
       data: PropTypes.array.isRequired,
     })
   ).isRequired,
-  getPriceDetail: PropTypes.func.isRequired,
+  getPriceDetailConnect: PropTypes.func.isRequired,
 }
 
-export default connect(({ priceDetail }) => ({ priceDetail }), { getPriceDetail })(MapView)
+export default connect(({ priceDetail }) => ({ priceDetail }), { getPriceDetailConnect: getPriceDetail })(MapView)
