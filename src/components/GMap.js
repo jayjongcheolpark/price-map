@@ -30,12 +30,12 @@ const GMap = compose(
   withProps({
     googleMapURL: 'https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places',
     loadingElement: <div style={{ height: `100%` }} />,
-    containerElement: <div style={{ height: `800px` }} />,
+    containerElement: <div style={{ height: `880px` }} />,
     mapElement: <div style={{ height: `100%` }} />,
   }),
   withScriptjs,
   withGoogleMap
-)(({ defaultZoom, lat, lng, data }) => {
+)(({ defaultZoom, lat, lng, data, getPriceDetail }) => {
   const renderData = data.map(el => {
     const { date, latitude, longitude, price } = el
     return (
@@ -45,6 +45,7 @@ const GMap = compose(
         labelAnchor={new google.maps.Point(3, 56)}
         labelStyle={styles.label}
         opacity={0.0}
+        onDblClick={() => getPriceDetail(el)}
       >
         <div style={styles.text}>
           {price > 1000000
@@ -68,12 +69,12 @@ const GMap = compose(
 
 GMap.defaultProps = {
   defaultZoom: 15,
-  lat: 43.644,
-  lng: -79.395,
+  lat: 43.6588089,
+  lng: -79.39098919999998,
   data: [
     {
-      lat: 43.644,
-      lng: -79.395,
+      lat: 43.6588089,
+      lng: -79.39098919999998,
       price: 10000000,
       date: Date.now(),
     },

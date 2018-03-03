@@ -275,7 +275,7 @@ export const data = [
     latitude: -79.36961589999999,
   },
   {
-    date: 1505188800000,
+    date: 1505188800010,
     address1: '586 Parliament Street, Toronto, ON',
     address2: '',
     zipcode: 'M4X 1P8',
@@ -451,7 +451,7 @@ export const data = [
     latitude: -79.4100191,
   },
   {
-    date: 1505188800000,
+    date: 1505188800020,
     address1: '798 Richmond Street West, Toronto, ON',
     address2: 'Akelius',
     zipcode: 'M6J 3N7',

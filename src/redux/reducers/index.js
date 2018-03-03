@@ -1,3 +1,6 @@
 import { combineReducers } from 'redux'
+import priceDetailReducer from './priceDetail'
 
-export default combineReducers({})
+export default combineReducers({
+  priceDetail: priceDetailReducer,
+})
