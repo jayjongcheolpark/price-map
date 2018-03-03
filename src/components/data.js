@@ -6,6 +6,8 @@ export const data = [
     type: 'House',
     price: 570000,
     floor: 2,
+    longitude: 43.6443769,
+    latitude: -79.41846509999999,
   },
   {
     address1: '665 Bloor Street West, Toronto, ON',
@@ -14,6 +16,8 @@ export const data = [
     type: 'House',
     price: 779300,
     floor: 1,
+    longitude: 43.6639959,
+    latitude: -79.41577540000003,
   },
   {
     address1: '7 Triller Ave, Toronto, ON',
@@ -22,6 +26,8 @@ export const data = [
     type: 'House',
     price: 883300,
     floor: 3,
+    longitude: 43.6380413,
+    latitude: -79.44310740000003,
   },
   {
     address1: '586 Parliament Street, Toronto, ON',
@@ -30,6 +36,8 @@ export const data = [
     type: 'House',
     price: 580000,
     floor: 2,
+    longitude: 43.6679148,
+    latitude: -79.36961589999999,
   },
   {
     address1: '700 University ave, Toronto, ON',
@@ -38,6 +46,8 @@ export const data = [
     type: 'House',
     price: 350000,
     floor: 2,
+    longitude: 43.6588089,
+    latitude: -79.39098919999998,
   },
   {
     address1: '798 Richmond Street West, Toronto, ON',
@@ -46,6 +56,8 @@ export const data = [
     type: 'Apartment',
     price: 460000,
     floor: 99999999,
+    longitude: 43.64495,
+    latitude: -79.4100191,
   },
   {
     address1: '78 Victor ave, Toronto, ON',
@@ -54,6 +66,8 @@ export const data = [
     type: 'House',
     price: 665000,
     floor: 2,
+    longitude: 43.667836,
+    latitude: -79.34970899999996,
   },
   {
     address1: '411-1 Bedford Road, Toronto, ON',
@@ -62,6 +76,8 @@ export const data = [
     type: 'House',
     price: 160000,
     floor: 1,
+    longitude: 43.6686152,
+    latitude: -79.39738769999997,
   },
   {
     address1: '45 Morse Street, Toronto, ON',
@@ -70,6 +86,8 @@ export const data = [
     type: 'House',
     price: 130000,
     floor: 2,
+    longitude: 43.6563519,
+    latitude: -79.33927269999998,
   },
   {
     address1: '53 Palmerston ave, Toronto, ON',
@@ -78,6 +96,8 @@ export const data = [
     type: 'Houes',
     price: 300000,
     floor: 22,
+    longitude: 43.6488868,
+    latitude: -79.40709659999999,
   },
   {
     address1: '404 Spadina ave, Toronto, ON',
@@ -86,6 +106,8 @@ export const data = [
     type: 'House',
     price: 220000,
     floor: 2,
+    longitude: 43.6559892,
+    latitude: -79.39966370000002,
   },
   {
     address1: '665 Queen Street West, Toronto, ON',
@@ -94,6 +116,8 @@ export const data = [
     type: 'House',
     price: 499000,
     floor: 0,
+    longitude: 43.64690179999999,
+    latitude: -79.40460100000001,
   },
   {
     address1: '43 Baldwin street, Toronto, ON',
@@ -102,6 +126,8 @@ export const data = [
     type: 'House',
     price: 399000,
     floor: 2,
+    longitude: 43.6557848,
+    latitude: -79.39370129999998,
   },
   {
     address1: '53 Palmerston ave, Toronto, ON',
@@ -110,6 +136,8 @@ export const data = [
     type: 'House',
     price: 300000,
     floor: 1,
+    longitude: 43.6488868,
+    latitude: -79.40709659999999,
   },
   {
     address1: '321 Sherbourne St, Toronto, ON',
@@ -118,6 +146,8 @@ export const data = [
     type: 'Apartment',
     price: 700000,
     floor: 2,
+    longitude: 43.6618894,
+    latitude: -79.37203060000002,
   },
   {
     address1: '525 Richmond Street West, Toronto, ON',
@@ -126,6 +156,8 @@ export const data = [
     type: 'Apartment',
     price: 599000,
     floor: 4,
+    longitude: 43.6469085,
+    latitude: -79.40040720000002,
   },
   {
     address1: '15 Dundonald Street, Toronto, ON',
@@ -134,6 +166,8 @@ export const data = [
     type: 'Apartment',
     price: 699000,
     floor: 19,
+    longitude: 43.66582630000001,
+    latitude: -79.38399390000001,
   },
   {
     address1: '1101 Bay Street, Toronto, ON',
@@ -142,6 +176,8 @@ export const data = [
     type: 'Apartment',
     price: 1000000,
     floor: 29,
+    longitude: 43.6677607,
+    latitude: -79.3882716,
   },
   {
     address1: '57 Charles Street, Toronto, ON',
@@ -150,6 +186,8 @@ export const data = [
     type: 'Apartment',
     price: 299000,
     floor: 3,
+    longitude: 43.6691971,
+    latitude: -79.38350379999997,
   },
   {
     address1: '570 Bay Street, Toronto, ON',
@@ -158,6 +196,8 @@ export const data = [
     type: 'Apartment',
     price: 477000,
     floor: 650000,
+    longitude: 43.6551421,
+    latitude: -79.3838222,
   },
   {
     address1: '252 Victoria Street, Toronto, ON',
@@ -166,6 +206,8 @@ export const data = [
     type: 'Apartment',
     price: 800000,
     floor: 24,
+    longitude: 43.65549120000001,
+    latitude: -79.37938159999999,
   },
   {
     address1: '11 Church Street, Toronro, ON',
@@ -174,6 +216,8 @@ export const data = [
     type: 'Apartment',
     price: 1200000,
     floor: 27,
+    longitude: 43.64797490000001,
+    latitude: -79.3733325,
   },
   {
     address1: '55 Mill Street, Toronto, ON',
@@ -182,6 +226,8 @@ export const data = [
     type: 'Apartment',
     price: 2000000,
     floor: 45,
+    longitude: 43.6503361,
+    latitude: -79.35982009999998,
   },
   {
     address1: '50 John Street, Toronto, ON',
@@ -190,6 +236,8 @@ export const data = [
     type: 'Residence',
     price: 1500000,
     floor: 39,
+    longitude: 43.6456206,
+    latitude: -79.38949709999997,
   },
   {
     address1: '300 Front Street West, Toronto, ON',
@@ -198,6 +246,8 @@ export const data = [
     type: 'Apartment',
     price: 3000000,
     floor: 50,
+    longitude: 43.6439482,
+    latitude: -79.38867959999999,
   },
   {
     address1: '371 Front Street West, Toronto, ON',
@@ -206,6 +256,8 @@ export const data = [
     type: 'Apartment',
     price: 2100000,
     floor: 32,
+    longitude: 43.64298609999999,
+    latitude: -79.39209549999998,
   },
   {
     address1: '50 Portland Street, Toronto, ON',
@@ -214,6 +266,8 @@ export const data = [
     type: 'Apartment',
     price: 1100000,
     floor: 22,
+    longitude: 43.6432618,
+    latitude: -79.39985719999999,
   },
   {
     address1: '33 Davisville Ave, Toronto, ON',
@@ -222,6 +276,8 @@ export const data = [
     type: 'Apartment',
     price: 890000,
     floor: 11,
+    longitude: 43.6983906,
+    latitude: -79.39489100000003,
   },
   {
     address1: '173 Duplex  Ave, Toronto, ON',
@@ -230,6 +286,8 @@ export const data = [
     type: 'Apartment',
     price: 770000,
     floor: 9,
+    longitude: 43.7032989,
+    latitude: -79.39995809999999,
   },
   {
     address1: '780 Eglinton Ave, Toronto, ON',
@@ -238,5 +296,7 @@ export const data = [
     type: 'Apartment',
     price: 199000,
     floor: 4,
+    longitude: 43.7132356,
+    latitude: -79.36740809999998,
   },
 ]
