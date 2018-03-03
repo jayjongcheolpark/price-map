@@ -1,6 +1,7 @@
 /* eslint-disable no-undef */
 import React from 'react'
 import PropTypes from 'prop-types'
+import numeral from 'numeral'
 import { compose, withProps } from 'recompose'
 import { withScriptjs, withGoogleMap, GoogleMap } from 'react-google-maps'
 import { MarkerWithLabel } from 'react-google-maps/lib/components/addons/MarkerWithLabel'
@@ -20,6 +21,7 @@ const styles = {
     width: '51px',
     height: '57px',
     paddingTop: '15px',
+    paddingLeft: '2px',
     color: 'white',
   },
 }
@@ -35,16 +37,24 @@ const GMap = compose(
   withGoogleMap
 )(({ defaultZoom, lat, lng, data }) => {
   const renderData = data.map(el => {
-    const { latitude, longitude, address1, price } = el
+    const { date, latitude, longitude, price } = el
     return (
       <MarkerWithLabel
-        key={address1}
+        key={date}
         position={{ lng: latitude, lat: longitude }}
         labelAnchor={new google.maps.Point(3, 56)}
         labelStyle={styles.label}
         opacity={0.0}
       >
-        <div style={styles.text}>{price}</div>
+        <div style={styles.text}>
+          {price > 1000000
+            ? numeral(price)
+                .format('0.0 a')
+                .toUpperCase()
+            : numeral(price)
+                .format('0 a')
+                .toUpperCase()}
+        </div>
       </MarkerWithLabel>
     )
   })
@@ -65,7 +75,7 @@ GMap.defaultProps = {
       lat: 43.644,
       lng: -79.395,
       price: 10000000,
-      address1: '1240 Marlborough Court',
+      date: Date.now(),
     },
   ],
 }
@@ -79,7 +89,7 @@ GMap.propTypes = {
       lat: PropTypes.number,
       lng: PropTypes.number,
       price: PropTypes.number,
-      address1: PropTypes.string,
+      date: PropTypes.number,
     })
   ),
 }

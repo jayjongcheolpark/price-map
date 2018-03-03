@@ -1,5 +1,6 @@
 export const data = [
   {
+    date: 1519211809934,
     address1: '996 Queen Street, Toronto, ON',
     address2: '',
     zipcode: 'M4M 1K1',
@@ -10,6 +11,7 @@ export const data = [
     latitude: -79.41846509999999,
   },
   {
+    date: 1519211810362,
     address1: '665 Bloor Street West, Toronto, ON',
     address2: '',
     zipcode: 'M6G 1L1',
@@ -20,6 +22,7 @@ export const data = [
     latitude: -79.41577540000003,
   },
   {
+    date: 1519211811670,
     address1: '7 Triller Ave, Toronto, ON',
     address2: '',
     zipcode: 'M6K 3B7',
@@ -30,6 +33,7 @@ export const data = [
     latitude: -79.44310740000003,
   },
   {
+    date: 1519129853500,
     address1: '586 Parliament Street, Toronto, ON',
     address2: '',
     zipcode: 'M4X 1P8',
@@ -40,6 +44,7 @@ export const data = [
     latitude: -79.36961589999999,
   },
   {
+    date: 1519129858900,
     address1: '700 University ave, Toronto, ON',
     address2: '',
     zipcode: 'M5G 1Z5',
@@ -50,6 +55,7 @@ export const data = [
     latitude: -79.39098919999998,
   },
   {
+    date: 1519129864400,
     address1: '798 Richmond Street West, Toronto, ON',
     address2: 'Akelius',
     zipcode: 'M6J 3N7',
@@ -60,6 +66,7 @@ export const data = [
     latitude: -79.4100191,
   },
   {
+    date: 1519129864500,
     address1: '78 Victor ave, Toronto, ON',
     address2: '',
     zipcode: 'M4K 1A8',
@@ -70,6 +77,7 @@ export const data = [
     latitude: -79.34970899999996,
   },
   {
+    date: 1519129858911,
     address1: '411-1 Bedford Road, Toronto, ON',
     address2: '',
     zipcode: 'M5R 2J7',
@@ -80,6 +88,7 @@ export const data = [
     latitude: -79.39738769999997,
   },
   {
+    date: 1519129853524,
     address1: '45 Morse Street, Toronto, ON',
     address2: '',
     zipcode: 'M4M 2P7',
@@ -90,6 +99,7 @@ export const data = [
     latitude: -79.33927269999998,
   },
   {
+    date: 1519211811674,
     address1: '53 Palmerston ave, Toronto, ON',
     address2: '',
     zipcode: 'M6J 2J2',
@@ -100,6 +110,7 @@ export const data = [
     latitude: -79.40709659999999,
   },
   {
+    date: 1519211810365,
     address1: '404 Spadina ave, Toronto, ON',
     address2: '',
     zipcode: 'M5T 2G7',
@@ -110,6 +121,7 @@ export const data = [
     latitude: -79.39966370000002,
   },
   {
+    date: 1519211809900,
     address1: '665 Queen Street West, Toronto, ON',
     address2: '',
     zipcode: 'M0T 1E6',
@@ -120,6 +132,7 @@ export const data = [
     latitude: -79.40460100000001,
   },
   {
+    date: 1519211809922,
     address1: '43 Baldwin street, Toronto, ON',
     address2: '',
     zipcode: 'M5T 1L1',
@@ -130,6 +143,7 @@ export const data = [
     latitude: -79.39370129999998,
   },
   {
+    date: 1519211809999,
     address1: '53 Palmerston ave, Toronto, ON',
     address2: '',
     zipcode: 'M6J 2J2',
@@ -140,6 +154,7 @@ export const data = [
     latitude: -79.40709659999999,
   },
   {
+    date: 1519211810311,
     address1: '321 Sherbourne St, Toronto, ON',
     address2: 'Garden View',
     zipcode: 'M5A 2S4',
@@ -150,6 +165,7 @@ export const data = [
     latitude: -79.37203060000002,
   },
   {
+    date: 1519211810322,
     address1: '525 Richmond Street West, Toronto, ON',
     address2: '525 Richmond',
     zipcode: 'M5V 1Y5',
@@ -160,6 +176,7 @@ export const data = [
     latitude: -79.40040720000002,
   },
   {
+    date: 1519211810333,
     address1: '15 Dundonald Street, Toronto, ON',
     address2: '15 Dundonald ',
     zipcode: 'M4Y 1k4',
@@ -170,6 +187,7 @@ export const data = [
     latitude: -79.38399390000001,
   },
   {
+    date: 1519211810344,
     address1: '1101 Bay Street, Toronto, ON',
     address2: '1101 Bay',
     zipcode: 'M5S 2W8',
@@ -180,6 +198,7 @@ export const data = [
     latitude: -79.3882716,
   },
   {
+    date: 1519211811222,
     address1: '57 Charles Street, Toronto, ON',
     address2: 'Vertica Resident',
     zipcode: 'M5S 2X1',
@@ -190,6 +209,7 @@ export const data = [
     latitude: -79.38350379999997,
   },
   {
+    date: 1519211811345,
     address1: '570 Bay Street, Toronto, ON',
     address2: 'Motion',
     zipcode: 'M5G 0B2',
@@ -200,6 +220,7 @@ export const data = [
     latitude: -79.3838222,
   },
   {
+    date: 1519211811456,
     address1: '252 Victoria Street, Toronto, ON',
     address2: 'Velocity at the Square',
     zipcode: 'M5B 0A3',
@@ -210,6 +231,7 @@ export const data = [
     latitude: -79.37938159999999,
   },
   {
+    date: 1519211811567,
     address1: '11 Church Street, Toronro, ON',
     address2: 'Capreit',
     zipcode: 'M5E 1W1',
@@ -220,6 +242,7 @@ export const data = [
     latitude: -79.3733325,
   },
   {
+    date: 1519211811859,
     address1: '55 Mill Street, Toronto, ON',
     address2: 'The Distillery Historic District',
     zipcode: 'M5A 3C4',
@@ -230,6 +253,7 @@ export const data = [
     latitude: -79.35982009999998,
   },
   {
+    date: 1519211811954,
     address1: '50 John Street, Toronto, ON',
     address2: 'The Resemont Residences',
     zipcode: 'M5V 3T5',
@@ -240,6 +264,7 @@ export const data = [
     latitude: -79.38949709999997,
   },
   {
+    date: 1519129853123,
     address1: '300 Front Street West, Toronto, ON',
     address2: 'Atlas Suites CN Tower and Convention Center',
     zipcode: 'M5V 0E9',
@@ -250,6 +275,7 @@ export const data = [
     latitude: -79.38867959999999,
   },
   {
+    date: 1519129853234,
     address1: '371 Front Street West, Toronto, ON',
     address2: 'Three Towers Residential',
     zipcode: 'M5V 3S8',
@@ -260,6 +286,7 @@ export const data = [
     latitude: -79.39209549999998,
   },
   {
+    date: 1519129853304,
     address1: '50 Portland Street, Toronto, ON',
     address2: 'Fifty On The Park',
     zipcode: 'M5V 2M7',
@@ -270,6 +297,7 @@ export const data = [
     latitude: -79.39985719999999,
   },
   {
+    date: 1519129853459,
     address1: '33 Davisville Ave, Toronto, ON',
     address2: 'Davisville Village apartments',
     zipcode: 'M4S 2Y9',
@@ -280,6 +308,7 @@ export const data = [
     latitude: -79.39489100000003,
   },
   {
+    date: 1519129853697,
     address1: '173 Duplex  Ave, Toronto, ON',
     address2: 'DelSuites',
     zipcode: 'M5P 2A8',
@@ -290,6 +319,7 @@ export const data = [
     latitude: -79.39995809999999,
   },
   {
+    date: 1519129853878,
     address1: '780 Eglinton Ave, Toronto, ON',
     address2: 'Forest Hill Residences Rental Apartment',
     zipcode: 'M5N 1E9',
