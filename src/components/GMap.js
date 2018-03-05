@@ -45,7 +45,7 @@ const GMap = compose(
         labelAnchor={new google.maps.Point(3, 56)}
         labelStyle={styles.label}
         opacity={0.0}
-        onDblClick={() => getPriceDetail(el)}
+        onClick={() => getPriceDetail(el)}
       >
         <div style={styles.text}>
           {price > 1000000
