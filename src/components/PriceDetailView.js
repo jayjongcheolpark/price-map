@@ -44,7 +44,14 @@ const PriceDetailView = ({ data, closePriceDetailConnect }) => {
           <i className="fas fa-times" />
         </button>
       </div>
-      <div style={styles.contentStyle}>{data.map(el => <div>{el.price}</div>)}</div>
+      <div style={styles.contentStyle}>
+        {data.map(el => (
+          <div>
+            <div>{el.price}</div>
+            <div>{el.floor}</div>
+          </div>
+        ))}
+      </div>
     </div>
   )
 }
